@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Norms";
+  font-weight: 900;
+  src: url("../public/assets/fonts/NormsBlack.otf");
+}
+
+@font-face {
+  font-family: "Norms";
+  font-weight: 700;
+  src: url("../public/assets/fonts/NormsBold.otf");
+}
+
+@font-face {
+  font-family: "Norms";
+  font-weight: 500;
+  src: url("../public/assets/fonts/NormsRegular.otf");
+}
+
+.draw {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+.kgdm-appear {
+  animation: 1s kgdm-appear-animation ease-in-out;
+}
+
+.custom-p {
+  opacity: 0;
+}
+
+.scroll-item-client {
+  opacity: 1;
+}
+
+@layer utilities {
+  @variants responsive {
+    .masonry {
+      column-gap: 1.5em;
+      column-count: 1;
+    }
+
+    .masonry-sm {
+      column-gap: 1.5em;
+      column-count: 2;
+    }
+
+    .masonry-md {
+      column-gap: 1.5em;
+      column-count: 3;
+    }
+
+    .break-inside {
+      break-inside: avoid;
+    }
+
+  }
+}
+
+@keyframes kgdm-appear-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* markdows */
+.home_highlight p{
+  font-size: 36px;
+  line-height: 38px;
+  letter-spacing:-0.05em ;
+  font-weight: 100;
+}
+.home_highlight p strong{
+  font-weight: 700;
+}
+
+
+/* locomotive scroll fix */
+.has-scroll-smooth 
+{position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;}

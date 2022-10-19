@@ -1,0 +1,27 @@
+.project-markup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.project-markup blockquote {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -0.03em;
+}
+
+.project-markup blockquote h2 {
+    font-size: 2.7em;
+    line-height: 1em;
+    display: block;
+    text-transform: uppercase;
+}
+
+.project-markup blockquote strong {
+    font-size: 2em;
+    line-height: 1em;
+    display: block;
+    text-transform: uppercase;
+}
