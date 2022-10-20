@@ -120,7 +120,7 @@ export default function Diferencia() {
                         <img
                             className="w-4/5 "
                             alt='behavior'
-                            src="/assets/images/img_placeholder.jpg"></img>
+                            src="/assets/images/LaDiferencia_video.jpg"></img>
                     </div>
                 </div>
 
