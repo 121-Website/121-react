@@ -72,11 +72,11 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div data-scroll-section className="py-24 bg-white ">
+                <div data-scroll-section className="bg-white md:py-24">
                     <div className="items-center tracking-tight ">
-                        <div className="flex justify-center  grow  py-[64px] lg:w-2/3 md:w-full 2xl:px-10 lg:px-20 lg:flex-row ">
+                        <div className="flex justify-center  grow py-10 md:py-[64px] lg:w-2/3 md:w-full 2xl:px-10 lg:px-20 lg:flex-row ">
                             <div
-                                className="lg:text-left md:text-center  lg:text-[78px] md:text-[60px] text-[40px] md:leading-[80px] mb-[60px] font-bold  tracking-tight"
+                                className="lg:text-left md:text-center  lg:text-[78px] md:text-[60px] text-[40px] md:leading-[80px] leading-tight mb-[60px] font-bold  tracking-tight"
                                 style={{
                                     background:
                                         '-webkit-linear-gradient(63.58deg, #F2BF57 8.03%, #D481AA 50%, #CB7EA7 55.03%, #B3759F 63.23%, #8B6692 73.56%, #555280 85.5%, #1C3D6D 96.64%)',
@@ -90,14 +90,14 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className=" my-36">
+                        <div className=" md:my-36">
                             <div className="flex flex-col-reverse justify-end w-full px-20 lg:gap-40 md:gap-20 grow lg:flex-row bg-celeste bg-opacity-40 h-4/5">
                                 <img
-                                    className=" lg:-mt-40 mb-2 md:-mt-1  h-[420px] "
+                                    className="lg:-mt-40 mb-2 md:-mt-1  h-[420px] "
                                     src="/assets/images/patinadorhome.svg"
                                     alt="home"
                                 />
-                                <div className="lg:text-left md:text-center sm:text-center py-16  tracking-tight leading-[50px]  text-indigo lg:text-[46px] sm:text-[40px]">
+                                <div className="lg:text-left md:text-center sm:text-center py-16  tracking-tight md:leading-[50px]  text-indigo lg:text-[46px] sm:text-[40px] -mx-14 text-[24px]">
                                     No hay otro camino al exito que <br />
                                     <span className="font-semibold ">
                                         tomando el emocionante riesgo
