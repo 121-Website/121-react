@@ -31,14 +31,14 @@ export default function Home() {
                 <div
                     data-scroll-section
                     className="relative flex flex-col items-center justify-center flex-grow overflow-hidden overflow-x-hidden uppercase -z-1 text-regular"
-                    style={{ width: width, height: height }}>
+                    style={{ width: width, height: width > 390 ? height : width * 0.5625, marginTop: width > 390 ? '0' : '80px' }}>
                     <div
-                        className={`h-full w-full absolute overflow-hidden transition-all `}
+                        className={`${width > 390 ? 'h-full absolute' : 'aspect-video'} w-full  overflow-hidden transition-all `}
                         onClick={() => setIsMuted(!isMuted)}
                         src={'https://assets.kgdm.live/121/121_Salta_V6.mp4'}>
                         {isMuted ? (
                             /*sound off*/
-                            <div className=" bg-slate-500/20 hover:bg-rosado   absolute z-50  transition-colors hover:fill-amarillo fill-white w-[58px] px-5 py-3 animate-disappear  top-0  mt-20 right-0">
+                            <div className=" bg-slate-500/20 hover:bg-rosado   absolute z-50  transition-colors hover:fill-amarillo fill-white w-[58px] px-5 py-3 animate-disappear  mt-28 right-0">
                                 {' '}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function Home() {
                             </div>
                         ) : (
                             /*sound on*/
-                            <div className="bg-slate-500/20 hover:bg-celeste absolute z-50 transition-colors hover:fill-indigo fill-white w-[76px] px-5 py-3 animate-disappear top-0  mt-20 right-0 ">
+                            <div className="bg-slate-500/20 hover:bg-celeste absolute z-30 transition-colors hover:fill-indigo fill-white w-[76px] px-5 py-3 animate-disappear mt-28 right-0 ">
                                 {' '}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function Home() {
                         )}
                         <video
                             ref={videoWidth}
-                            className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+                            className={`absolute z-10 w-auto min-w-full min-h-full max-w-none`}
                             autoPlay
                             loop
                             muted={isMuted}
@@ -67,7 +67,7 @@ export default function Home() {
                             src={
                                 'https://assets.kgdm.live/121/121_Salta_V6.mp4'
                             }
-                            style={{ marginLeft: width < 1920 ? dist : '0' }}
+                            style={{ marginLeft: width > 320 ? '0' : dist, width: width}}
                         />
                     </div>
                 </div>
