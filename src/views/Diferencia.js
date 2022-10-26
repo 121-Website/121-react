@@ -17,7 +17,7 @@ export default function Diferencia() {
                             <p className="font-bold  tracking-tighter leading-none text-center lg:text-left md:justify-center text-[58px] md:text-[64px] ">
                                 Desarrollamos
                             </p>
-                            <p className="md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px] w-4/5  tracking-tighter text-center md:text-center lg:text-left md:justify-center ">
+                            <p className="md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px] tracking-tighter text-center md:text-center lg:text-left md:justify-center ">
                                 herramientas tecnológicas y nos
                                 <br />
                                 especializamos en la ciencia del <br />
