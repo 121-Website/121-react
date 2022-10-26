@@ -21,11 +21,11 @@ export default function Trabajo() {
         <>
             <div className="flex flex-col overflow-x-hidden bg-white" id="main-container">
 
-                <div data-scroll-section className="relative flex grow bg-celeste min-h-[980px]">
+                <div data-scroll-section className="relative flex grow bg-celeste  md:min-h-[980px] min-h-[720px]">
                     <div className="flex flex-col-reverse gap-10 mx-5 my-10 grow lg:flex-row md:mx-20">
-                        <div className="flex flex-col pb-10 justify-center justify-self-center gap-5 tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
+                        <div className="flex flex-col pb-10 justify-center justify-self-center gap-8 md:gap-5 tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
                             <p className="font-bold  tracking-tighter text-center leading-none lg:text-left md:justify-center text-[64px] ">Trabajo</p>
-                            <p className=" md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px]  tracking-tighter md:text-center lg:text-left md:justify-center">
+                            <p className=" md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px]  tracking-tighter text-center md:text-center lg:text-left md:justify-center">
                                 Una idea sorprendente es el camino <br />
                                 más corto entre una marca y un <br />
                                 consumidor que tiene cada vez menos <br />
