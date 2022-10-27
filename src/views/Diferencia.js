@@ -40,28 +40,27 @@ export default function Diferencia() {
                 </div>
 
                 {/* INTELLIGENCE */}
-                <div className="p-10 pt-32 bg-white ">
+                <div className="p-10 pt-20 bg-white md:pt-32 ">
                     <div className="flex flex-col justify-center gap-3 ">
                         <div className="text-[20px] text-indigo">
                             Conoce la herramienta
                         </div>
-                        <div className="mr-auto font-bold transition-all duration-700 text-[60px] text-indigo ">
+                        <div className="mr-auto font-bold transition-all duration-700 text-[54px] md:text-[60px] text-indigo ">
                             Intelligence
                         </div>
-                        <div className=" lg:w-2/5 md:w-full text-[24px] pt-5 text-indigo">
+                        <div className=" lg:w-2/5 md:w-full text-[21px] md:text-[24px] pt-5 text-indigo">
                             100% desarrollada por 121 y financiada por el Banco
                             Mundial que te permite análizar el{' '}
-                            <p className="font-bold">sentiment</p> de tus redes
-                            sociales para{' '}
-                            <p className="font-bold">
+                            <p className="inline-block font-bold">sentiment</p> de tus redes sociales para{' '}
+                            <p className="inline font-bold">
                                 predecir comportamientos y perfilar campañas
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-end mt-20">
-                    <div className="absolute flex left-0 w-auto px-10 ml-20 text-indigo py-6 text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
+                <div className="flex flex-row justify-end mt-10 md:mt-20">
+                    <div className="absolute flex left-0 w-auto px-10 ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
                         Consulta con nuestro especialista
                         <svg
                             className="ml-4 animate-bounce-x"
@@ -88,12 +87,12 @@ export default function Diferencia() {
                 </div>
 
                 {/* behavior */}
-                <div className="pt-24 my-10 pb-28 bg-skyblue ">
+                <div className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
                     <div className="flex flex-col justify-center gap-3 p-10 ">
-                        <div className="mr-auto font-bold transition-all duration-700 text-[60px] text-indigo ">
+                        <div className="mr-auto font-bold transition-all duration-700 leading-none text-[54px] md:text-[60px] text-indigo ">
                             Behavior Design
                         </div>
-                        <div className="lg:w-3/6 md:w-full text-[24px]  text-indigo">
+                        <div className="lg:w-3/6 md:w-full pt-5 text-[21px] md:text-[24px] text-indigo">
                             Nos especializamos con líderes mundiales en la
                             ciencia del comportamiento para darle a la
                             creatividad soporte científico que active
@@ -101,8 +100,8 @@ export default function Diferencia() {
                         </div>
                     </div>
 
-                    <div className="flex flex-row justify-end mt-20">
-                        <div className="absolute flex left-0 w-auto px-10 ml-20  py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
+                    <div className="flex flex-row justify-end mt-10 md:mt-20">
+                        <div className="absolute leading-4 flex left-0 w-auto px-10 ml-20 py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
                             Consulta con nuestro especialista
                             <svg
                                 className="ml-4 animate-bounce-x"
@@ -126,8 +125,8 @@ export default function Diferencia() {
 
                 {/* grid */}
 
-                <div className="px-10 py-20 my-20 bg-white ">
-                    <div className=" font-bold tracking-tight lg:leading-none md:leading-7 w-2/3 pl-2 -mt-16 mb-20 lg:text-[48px] md:text-[30px] text-indigo">
+                <div className="px-10 bg-white md:my-20 md:py-20 ">
+                    <div className=" font-bold tracking-tight leading-8 lg:leading-none text-[30px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-20 lg:text-[48px] md:text-[30px] text-indigo">
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.
                     </div>
