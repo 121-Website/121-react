@@ -126,11 +126,11 @@ export default function Diferencia() {
                 {/* grid */}
 
                 <div className="px-10 bg-white md:my-20 md:py-20 ">
-                    <div className=" font-bold tracking-tight leading-8 lg:leading-none text-[30px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-20 lg:text-[48px] md:text-[30px] text-indigo">
+                    <div className=" font-bold tracking-tight leading-8 lg:leading-none text-[30px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.
                     </div>
-                    <div className=" lg:gap-6 md:gap-4 columns-2">
+                    <div className=" lg:gap-6 md:gap-4 md:columns-2">
                         {servicios.map((item, index) => {
                             return (
                                 <UIServiceGridCell
