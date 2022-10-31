@@ -39,7 +39,7 @@ export default function NavigationTop(props) {
                         <img
                             src="/assets/images/121-icon-new.svg"
                             alt="logo"
-                            className="h-16 "
+                            className="h-10 md:h-16"
                         />
                     </a>
                     <div className="flex flex-grow"></div>
