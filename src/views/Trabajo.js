@@ -47,12 +47,12 @@ export default function Trabajo() {
                 </div>
 
 
-                <div data-scroll-section className="pt-2 pb-52 bg-amarillo md:pt-16" >
-                    <div className="flex flex-col justify-start mx-32 md:flex-row">
-                        <div className="justify-end w-screen  pt-5 text-[30px] leading-tight font-semibold tracking-tight cpx-10 text-indigo ">
+                <div data-scroll-section className="py-10 md:pb-52 bg-amarillo md:pt-16" >
+                    <div className="flex flex-row justify-start mx-10 md:mx-32">
+                        <div className="justify-end w-2/3 md:w-screen  pt-5 text-[14px] md:text-[30px] leading-tight font-semibold tracking-tight text-indigo ">
                             En cada campaña nos proponemos detener el scroll<br />
                             de los pulgares sobre las pantallas, en otras palabras,<br />
-                            convertir cada POST en un STOP <br />
+                            convertir cada POST en un STOP<br />
                         </div>
                         <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" className="w-1/3 scroll-pt-72 md:w-1/2 md:-mt-32 lg:max-w-[265px]">
                             <img src="/assets/images/mira121.svg" alt="mira121"></img>
@@ -68,9 +68,9 @@ export default function Trabajo() {
                     </div>
                 </div>
 
-                <div data-scroll-section className="mt-16 pb-52 bg-celeste" >
-                    <div className="flex flex-col justify-start mx-32 mt-9 md:flex-row">
-                        <div className="justify-end align-middle w-screen mt-16 lg:text-[30px] md:text-[30px] leading-none font-semibold tracking-tighter text-indigo ">
+                <div data-scroll-section className="py-10 md:mt-16 md:pb-52 bg-celeste" >
+                    <div className="flex flex-row justify-start mx-10 md:mx-32">
+                        <div className="justify-end align-middle w-screen md:mt-16 lg:text-[30px] md:text-[30px] leading-none font-semibold tracking-tighter text-indigo ">
                             Nuestra creatividad encuentra  <br />
                             en la información y la tecnología <br />
                             los socios ideales para soprender <br />
@@ -82,7 +82,7 @@ export default function Trabajo() {
                     </div>
                 </div>
 
-                <div data-scroll-section className="px-10 -mt-40">
+                <div data-scroll-section className="px-10 mt-10 md:-mt-40">
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         {groupC.map((project, index) => (
                             <UIProjectGridCell key={index} id={project.id} project={project.attributes} />

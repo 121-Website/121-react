@@ -49,7 +49,7 @@ export default function Transition() {
                         />
                     </svg>
                     <svg
-                        className="-ml-32"
+                        className="-ml-10 md:-ml-32"
                         width="141"
                         height="501"
                         viewBox="0 0 141 501"
