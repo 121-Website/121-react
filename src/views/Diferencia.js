@@ -59,7 +59,7 @@ export default function Diferencia() {
                     </div>
                 </div>
 
-                <div className="flex flex-row justify-end mt-10 md:mt-20">
+                <div className="flex flex-row mt-10 md:justify-end md:mt-20">
                     <div className="absolute flex left-0 w-auto px-10 ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
                         Consulta con nuestro especialista
                         <svg
@@ -119,18 +119,19 @@ export default function Diferencia() {
                         <img
                             className="w-4/5 "
                             alt='behavior'
-                            src="/assets/images/LaDiferencia_video.jpg"></img>
+                            src="/assets/images/LaDiferencia_video.jpg">
+                        </img>
                     </div>
                 </div>
 
                 {/* grid */}
 
-                <div className="px-10 bg-white md:my-20 md:py-20 ">
-                    <div className=" font-bold tracking-tight leading-8 lg:leading-none text-[30px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
+                <div className="bg-white md:px-10 md:my-20 md:py-20">
+                    <div className="mx-4 font-bold tracking-tight leading-4 lg:leading-none text-[16px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.
                     </div>
-                    <div className=" lg:gap-6 md:gap-4 md:columns-2">
+                    <div className="grid-cols-1 mb-6 lg:gap-6 md:gap-4 md:columns-2">
                         {servicios.map((item, index) => {
                             return (
                                 <UIServiceGridCell
