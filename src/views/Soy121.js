@@ -13,18 +13,18 @@ export default function Soy121() {
                 id="main-container">
                 <div
                     data-scroll-section
-                    className="relative flex  grow min-h-[980px] bg-[#EDE9E3] ">
-                    <div className="flex flex-col-reverse gap-10 mx-10 my-10 grow lg:flex-row md:mx-20">
+                    className="relative flex  grow min-h-[720px] md:min-h-[980px] bg-[#EDE9E3] ">
+                    <div className="flex flex-col-reverse gap-10 mx-5 my-10 grow lg:flex-row md:mx-20">
                         <div
                             data-scroll
                             data-scroll-speed="2"
                             data-scroll-direction="horizontal"
                             className="flex gap-5 flex-col pb-10 justify-center items-center md:items-start justify-self-center tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
-                            <p className="font-bold tracking-tighter text-center leading-none lg:text-left md:justify-center text-[64px]">
+                            <p className="font-bold tracking-tighter text-center leading-none lg:text-left md:justify-center text-[40px] md:text-[64px]">
                                 121 es un equipo <br />
                                 de creación continua
                             </p>
-                            <p className="text-center md:w-full font-thin leading-9 text-[29px] w-4/5 tracking-tighter md:text-center lg:text-left md:justify-center">
+                            <p className="text-center md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px] tracking-tighter md:text-center lg:text-left md:justify-center">
                                 Una idea sorprendente es el camino <br />
                                 más corto entre un marca y un <br />
                                 consumidor que tiene cada vez <br />
@@ -58,11 +58,11 @@ export default function Soy121() {
 
                 <div
                     data-scroll-section
-                    className="flex flex-col items-center justify-center gap-5 py-52 bg-celeste ">
-                    <div className="text-[73px] text-center font-bold text-indigo uppercase transition-all duration-100">
+                    className="flex flex-col items-center justify-center gap-5 px-5 mb-10 py-36 md:py-52 bg-celeste ">
+                    <div className="text-[54px] md:text-[73px] text-center font-bold text-indigo uppercase transition-all duration-100">
                         Da el Salto
                     </div>
-                    <div className="pb-6 text-[35px] text-center text-indigo">
+                    <div className="md:pb-6 text-[17px] md:text-[35px] text-center text-indigo">
                         Valoramos tu inconformidad, <br /> tu obsesión por
                         buscar caminos diferentes,
                         <br />y el deseo{' '}
@@ -76,7 +76,7 @@ export default function Soy121() {
                         href="https://wa.link/wecfs7"
                         target="_blank"
                         rel="noreferrer"
-                        className="px-14 py-6 my-20 text-[30px] font-bold uppercase transition-all duration-700 bg-indigo text-celeste hover:bg-rosado hover:text-indigo">
+                        className="px-14 py-6 mt-10 md:my-20 text-[30px] font-bold uppercase transition-all duration-700 bg-indigo text-celeste hover:bg-rosado hover:text-indigo">
                         POSTULA AQUÍ
                     </a>
                 </div>
