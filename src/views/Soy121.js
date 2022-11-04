@@ -45,7 +45,7 @@ export default function Soy121() {
                     </div>
                 </div>
 
-                <div className="px-6 pb-16" data-scroll-section>
+                <div className="pb-16 md:px-6" data-scroll-section>
                     <div className="grid gap-4 md:grid-cols-3">
                         {talent.map((talent, index) => (
                             <UITalentGridCell
@@ -58,7 +58,7 @@ export default function Soy121() {
 
                 <div
                     data-scroll-section
-                    className="flex flex-col items-center justify-center gap-5 px-5 mb-10 py-36 md:py-52 bg-celeste ">
+                    className="flex flex-col items-center justify-center gap-5 px-5 py-36 md:py-52 bg-celeste ">
                     <div className="text-[54px] md:text-[73px] text-center font-bold text-indigo uppercase transition-all duration-100">
                         Da el Salto
                     </div>
