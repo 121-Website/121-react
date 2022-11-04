@@ -8,7 +8,7 @@ export default function Hablemos() {
                 id="main-container">
                 <div
                     data-scroll-section
-                    className="relative flex bg-amarillo grow min-h-[980px]">
+                    className="relative flex bg-amarillo grow min-h-[640px] md:min-h-[980px]">
                     <div className="flex flex-col-reverse gap-10 mx-10 my-10 grow lg:flex-row md:mx-20">
                         <div
                             data-scroll
@@ -33,13 +33,13 @@ export default function Hablemos() {
                     </div>
                 </div>
 
-                <div className="container z-10 flex flex-col justify-center gap-20 pb-24 mb-20 md:flex-row ">
+                <div className="container z-10 flex flex-col justify-center gap-20 pb-10 mb-20 md:pb-24 md:flex-row ">
                     <div className="container flex flex-row gap-2 ">
                         <div
                             data-scroll
                             data-scroll-speed="2"
                             data-scroll-direction="horizontal"
-                            className="w-auto -mt-10 overline md:w-1/4">
+                            className="w-1/2 mt-14 md:-mt-10 moverline md:w-1/4">
                             <img
                                 href="https://wa.link/wecfs7"
                                 target="_blank"
@@ -50,7 +50,7 @@ export default function Hablemos() {
                                 src="/assets/images/correo.svg"
                                 alt="correo"></img>
                         </div>
-                        <div className="flex flex-col lg:gap-24 lg:mt-20 text-[36px] md:mt-10 md:pl-9 lg:pl-1 md:text-[30px] md:gap-20">
+                        <div className="flex flex-col lg:gap-24 mt-20 gap-14 lg:mt-20 text-[16px] md:mt-10 md:pl-9 lg:pl-1 md:text-[30px] md:gap-20">
                             <a
                                 href="https://wa.link/wecfs7"
                                 target="_blank"
