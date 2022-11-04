@@ -14,7 +14,7 @@ export default function Diferencia() {
                     className="relative flex  grow bg-indigo md:min-h-[980px] min-h-[720px]">
                     <div className="flex flex-col-reverse gap-10 mx-5 my-10 grow lg:flex-row md:mx-20">
                         <div className="flex flex-col pb-10 justify-center justify-self-center gap-8 md:gap-5 tracking-tight text-white lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px]">
-                            <p className="font-bold  tracking-tighter leading-none text-center lg:text-left md:justify-center text-[58px] md:text-[64px] ">
+                            <p className="font-bold  tracking-tighter leading-none text-center lg:text-left md:justify-center text-[54px] md:text-[64px] ">
                                 Desarrollamos
                             </p>
                             <p className="md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px] tracking-tighter text-center md:text-center lg:text-left md:justify-center ">

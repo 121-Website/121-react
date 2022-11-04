@@ -20,11 +20,11 @@ export default function Soy121() {
                             data-scroll-speed="2"
                             data-scroll-direction="horizontal"
                             className="flex gap-5 flex-col pb-10 justify-center items-center md:items-start justify-self-center tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
-                            <p className="font-bold tracking-tighter text-center leading-none lg:text-left md:justify-center text-[40px] md:text-[64px]">
+                            <p className="font-bold tracking-tighter text-center pb-5 leading-none lg:text-left md:justify-center text-[36px] md:text-[64px]">
                                 121 es un equipo <br />
                                 de creación continua
                             </p>
-                            <p className="text-center md:w-full font-thin leading-7 md:leading-9 text-[22px] md:text-[29px] tracking-tighter md:text-center lg:text-left md:justify-center">
+                            <p className="text-center md:w-full font-thin leading-6 md:leading-9 text-[20px] md:text-[29px] tracking-tighter md:text-center lg:text-left md:justify-center">
                                 Una idea sorprendente es el camino <br />
                                 más corto entre un marca y un <br />
                                 consumidor que tiene cada vez <br />
