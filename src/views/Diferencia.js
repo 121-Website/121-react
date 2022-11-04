@@ -41,14 +41,14 @@ export default function Diferencia() {
 
                 {/* INTELLIGENCE */}
                 <div className="p-10 pt-20 bg-white md:pt-32 ">
-                    <div className="flex flex-col justify-center gap-3 ">
-                        <div className="text-[20px] text-indigo">
+                    <div className="flex flex-col justify-center md:gap-3 ">
+                        <div className="text-[18px] md:text-[20px] text-indigo">
                             Conoce la herramienta
                         </div>
-                        <div className="mr-auto font-bold transition-all duration-700 text-[54px] md:text-[60px] text-indigo ">
+                        <div className="md:mr-auto font-bold transition-all duration-700 text-[40px] md:text-[60px] text-indigo ">
                             Intelligence
                         </div>
-                        <div className=" lg:w-2/5 md:w-full text-[21px] md:text-[24px] pt-5 text-indigo">
+                        <div className=" lg:w-2/5 md:w-full text-[14px] md:text-[24px] pt-2 text-indigo">
                             100% desarrollada por 121 y financiada por el Banco
                             Mundial que te permite análizar el{' '}
                             <p className="inline-block font-bold">sentiment</p> de tus redes sociales para{' '}
@@ -89,10 +89,10 @@ export default function Diferencia() {
                 {/* behavior */}
                 <div className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
                     <div className="flex flex-col justify-center gap-3 p-10 ">
-                        <div className="mr-auto font-bold transition-all duration-700 leading-none text-[54px] md:text-[60px] text-indigo ">
+                        <div className="mr-auto font-bold transition-all duration-700 leading-none text-[40px] md:text-[60px] text-indigo ">
                             Behavior Design
                         </div>
-                        <div className="lg:w-3/6 md:w-full pt-5 text-[21px] md:text-[24px] text-indigo">
+                        <div className="lg:w-3/6 md:w-full pt-2 text-[14px] md:text-[24px] text-indigo">
                             Nos especializamos con líderes mundiales en la
                             ciencia del comportamiento para darle a la
                             creatividad soporte científico que active

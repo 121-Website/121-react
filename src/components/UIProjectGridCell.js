@@ -14,7 +14,7 @@ export default function UIProjectGridCell({ project, id }) {
 
     return (
         <Link to={`/project/${id}`} className="text-sm font-black text-indigo md:text-lg hover:text-rosado ">
-            <div className="pb-6 bg-white">
+            <div className="bg-white md:pb-6">
                 <div onMouseEnter={Creator} onMouseLeave={Destroyer} className="relative flex w-full overflow-hidden transition-all duration-1000 transform bg-center bg-cover aspect-video" style={{ backgroundImage: `url(${project.cover})` }}>
                     {hover ?
                         <div className={`h-full hidden md:block min-w-full absolute overflow-hidden transition-all ${destroy ? "opacity-0" : "kgdm-appear"}`} >
@@ -23,7 +23,7 @@ export default function UIProjectGridCell({ project, id }) {
                         : null
                     }
                 </div>
-                <div className="flex flex-col md:flex-row">
+                <div className="flex-col hidden md:flex md:flex-row">
                     <div className="flex flex-col flex-grow gap-4 pt-6 bg-white pb-7">
                         <div className="lg:text-[27px] font-bold tracking-tighter lg:leading-8 md:leading-6 text-brown md:text-[20px]">
                             <ReactMarkdown className="" children={project.descriptionwork} />

@@ -12,12 +12,12 @@ export default function UIProjectBanner({ project, id }) {
     function Creator() { setDestroy(false); setHover(true); }
 
     return (
-        <div className="pb-16 mx-[40px] overflow-hidden bg-white ">
+        <div className="md:pb-16 md:mx-[40px] overflow-hidden bg-white ">
             <Link to={`/project/${id}`} className="">
                 <div
                     onMouseEnter={Creator} onMouseLeave={Destroyer}
                     className="relative flex w-full transition-all duration-700 transform bg-center bg-cover hover:scale-100 "
-                    style={{ height: `${Number(height) * 0.65}px`, backgroundImage: `url(${project.cover})` }}>
+                    style={{ height: `${width > 400 ? Number(height) * 0.65 : 240}px`, backgroundImage: `url(${project.cover})` }}>
                     {hover ?
                         <div className={`md:h-full hidden top-0 bottom-0 left-0 right-0 md:block absolute bg-black overflow-hidden transition-all ${destroy ? "opacity-0" : "kgdm-appear"}`} style={{ width: width }}>
                             <video className="object-cover w-full h-full opacity-70" autoPlay loop muted src={project.videopreview} />
@@ -45,13 +45,13 @@ export default function UIProjectBanner({ project, id }) {
                         : ""
                     }
 
-                    <div className="absolute left-0 z-20 flex flex-col gap-6 p-6 text-white bottom-6 md:p-8 z-index">
+                    <div className="absolute left-0 z-20 flex flex-col p-6 pb-0 text-white md:gap-6 bottom-6 md:p-8 z-index">
                         <div className="text-sm md:text-[25px]">{project.name}</div>
                         <div className="text-xl tracking-tight font-bold md:text-[74px]" >{project.client}</div>
                     </div>
                 </div>
             </Link>
-            <div className="flex flex-col gap-12 md:flex-row">
+            <div className="flex-col hidden gap-12 md:flex md:flex-row">
                 <div className="flex flex-col flex-grow gap-4 py-6 bg-white">
                     <div className="lg:text-[36px] font-bold mb-4 lg:laeding-10 md:leading-9 tracking-tight md:text-indigo md:text-[40px] ">
                         <ReactMarkdown className="tracking-tighter " children={project.descriptionhome} />
