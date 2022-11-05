@@ -40,7 +40,7 @@ export default function Diferencia() {
                 </div>
 
                 {/* INTELLIGENCE */}
-                <div className="p-10 pt-20 bg-white md:pt-32 ">
+                <div className="p-10 pt-20 pb-0 bg-white md:pt-32 ">
                     <div className="flex flex-col justify-center md:gap-3 ">
                         <div className="text-[18px] md:text-[20px] text-indigo">
                             Conoce la herramienta
@@ -59,8 +59,8 @@ export default function Diferencia() {
                     </div>
                 </div>
 
-                <div className="flex flex-row mt-10 md:justify-end md:mt-20">
-                    <div className="absolute flex left-0 w-auto px-10 ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
+                <div className="flex flex-col-reverse mt-10 md:flex-row md:justify-end md:mt-20">
+                    <div className="relative md:absolute flex left-0 w-auto px-10 md:ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
                         Consulta con nuestro especialista
                         <svg
                             className="ml-4 animate-bounce-x"
@@ -88,7 +88,7 @@ export default function Diferencia() {
 
                 {/* behavior */}
                 <div className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
-                    <div className="flex flex-col justify-center gap-3 p-10 ">
+                    <div className="flex flex-col justify-center gap-3 p-10 pt-0 ">
                         <div className="mr-auto font-bold transition-all duration-700 leading-none text-[40px] md:text-[60px] text-indigo ">
                             Behavior Design
                         </div>
@@ -100,8 +100,8 @@ export default function Diferencia() {
                         </div>
                     </div>
 
-                    <div className="flex flex-row justify-end mt-10 md:mt-20">
-                        <div className="absolute leading-4 flex left-0 w-auto px-10 ml-20 py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
+                    <div className="flex flex-col-reverse justify-end md:flex-row md:mt-20">
+                        <div className="relative md:absolute leading-4 flex left-0 w-auto px-10 md:ml-20 py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
                             Consulta con nuestro especialista
                             <svg
                                 className="ml-4 animate-bounce-x"
@@ -117,7 +117,7 @@ export default function Diferencia() {
                             </svg>
                         </div>
                         <img
-                            className="w-4/5 "
+                            className="md:w-4/5 "
                             alt='behavior'
                             src="/assets/images/LaDiferencia_video.jpg">
                         </img>
@@ -127,11 +127,11 @@ export default function Diferencia() {
                 {/* grid */}
 
                 <div className="bg-white md:px-10 md:my-20 md:py-20">
-                    <div className="mx-4 font-bold tracking-tight leading-4 lg:leading-none text-[16px] md:leading-7 md:w-2/3 pl-2 -mt-16 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
+                    <div className="mx-4 font-bold tracking-tight leading-4 lg:leading-none text-[16px] md:leading-7 md:w-2/3 pl-2 -mt-24 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.
                     </div>
-                    <div className="grid-cols-1 mb-6 lg:gap-6 md:gap-4 md:columns-2">
+                    <div className="lg:gap-6 md:gap-4 md:columns-2">
                         {servicios.map((item, index) => {
                             return (
                                 <UIServiceGridCell
