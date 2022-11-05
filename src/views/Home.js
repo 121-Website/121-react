@@ -31,9 +31,9 @@ export default function Home() {
                 <div
                     data-scroll-section
                     className="relative flex flex-col items-center justify-center flex-grow overflow-hidden overflow-x-hidden uppercase -z-1 text-regular"
-                    style={{ width: width, height: width > 390 ? height : width * 0.5625, marginTop: width > 390 ? '0' : '80px' }}>
+                    style={{ width: width, height: width > 870 ? height : width * 0.5625, marginTop: width > 870 ? '0' : '80px' }}>
                     <div
-                        className={`${width > 390 ? 'h-full absolute' : 'aspect-video'} w-full  overflow-hidden transition-all `}
+                        className={`${width > 870 ? 'h-full absolute' : 'aspect-video'} w-full  overflow-hidden transition-all `}
                         onClick={() => setIsMuted(!isMuted)}
                         src={'https://assets.kgdm.live/121/121_Salta_V6.mp4'}>
                         {isMuted ? (
