@@ -131,9 +131,9 @@ export default function Diferencia() {
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.
                     </div>
-                    <div className="lg:gap-6 md:gap-4 md:columns-2">
+                    <div className="flex flex-col sm:grid sm:grid-cols-2 lg:gap-6 md:gap-4 ">
                         {servicios.map((item, index) => {
-                            return (
+                            return ( 
                                 <UIServiceGridCell
                                     key={index}
                                     service={item.attributes}

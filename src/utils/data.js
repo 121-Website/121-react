@@ -84,6 +84,7 @@ export const servicios = [
             name: 'BIG IDEAS',
             color: '#F2BF57',
             textcolor: '#1C3D6D',
+            order: 'md:order-1 order-2',
             description:
                 'Ideamos campañas de comunicación para generar sorpresa y atraer la atención en múltiples medios y plataformas',
         },
@@ -93,6 +94,7 @@ export const servicios = [
             name: 'CONSULTORIA ESTRATÉGICA',
             color: '#1C3D6D',
             textcolor: '#8bbcc2',
+            order: 'md:order-2 order-4',
             description:
                 'Desarrollamos estrategias potentes para tu marca, para tu plan de comunicación y para tus redes scoiales.',
         },
@@ -102,6 +104,7 @@ export const servicios = [
             name: 'GESTIÓN DE REDES',
             color: '#8bbcc2',
             textcolor: '#1C3D6D',
+            order: 'md:order-3 order-1',
             description:
                 'Creamos contenidos para tus redes y las gestionamos para construir enagagement y mejorar el sentiment.',
         },
@@ -111,6 +114,7 @@ export const servicios = [
             name: 'ANALÍTICA E INSIGHT',
             color: '#c886a9',
             textcolor: '#1C3D6D',
+            order: 'md:order-4 order-3',
             description:
                 'Análisis y reporting, sentiment y analítica predictiva, Machine Learning aplicado a los negocios.',
         },
