@@ -38,8 +38,8 @@ export default function Trabajo() {
                     </div>
                 </div>
 
-                <div data-scroll-section className="px-10 pt-12 pb-10 bg-white ">
-                    <div className="grid gap-[20px] grid-cols-1 md:grid-cols-2">
+                <div data-scroll-section className="bg-white md:pb-10 md:pt-12 md:px-10 ">
+                    <div className="grid md:gap-[20px] grid-cols-1 md:grid-cols-2">
                         {groupA.map((project, index) => (
                             <UIProjectGridCell key={index} id={project.id} project={project.attributes} />
                         ))}
@@ -48,20 +48,20 @@ export default function Trabajo() {
 
 
                 <div data-scroll-section className="py-10 md:pb-52 bg-amarillo md:pt-16" >
-                    <div className="flex flex-row justify-start mx-10 md:mx-32">
-                        <div className="justify-end w-2/3 md:w-screen  pt-5 text-[14px] md:text-[30px] leading-tight font-semibold tracking-tight text-indigo ">
+                    <div className="flex flex-row items-center justify-start pb-4 mx-10 md:mx-32">
+                        <div className="justify-end w-2/3 md:w-screen  md:pt-5 text-[14px] md:text-[30px] leading-tight font-semibold tracking-tight text-indigo ">
                             En cada campaña nos proponemos detener el scroll<br />
                             de los pulgares sobre las pantallas, en otras palabras,<br />
                             convertir cada POST en un STOP<br />
                         </div>
-                        <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" className="w-1/3 scroll-pt-72 md:w-1/2 md:-mt-32 lg:max-w-[265px]">
+                        <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" className=" w-1/3 scroll-pt-72 md:w-1/2 md:-mt-32 lg:max-w-[265px]">
                             <img src="/assets/images/mira121.svg" alt="mira121"></img>
                         </div>
                     </div>
                 </div>
 
-                <div data-scroll-section className="px-10 pt-12 pb-10 -mt-5 md:-mt-40 ">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div data-scroll-section className="-mt-5 md:pb-10 md:pt-12 md:px-10 md:-mt-40 ">
+                    <div className="grid grid-cols-1 md:gap-4 md:grid-cols-2">
                         {groupB.map((project, index) => (
                             <UIProjectGridCell key={index} id={project.id} project={project.attributes} />
                         ))}
@@ -82,8 +82,8 @@ export default function Trabajo() {
                     </div>
                 </div>
 
-                <div data-scroll-section className="px-10 mt-10 md:-mt-40">
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div data-scroll-section className=" md:px-10 md:-mt-40">
+                    <div className="grid grid-cols-1 md:gap-4 md:grid-cols-2">
                         {groupC.map((project, index) => (
                             <UIProjectGridCell key={index} id={project.id} project={project.attributes} />
                         ))}
