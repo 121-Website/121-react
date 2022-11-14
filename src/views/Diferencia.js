@@ -144,7 +144,7 @@ export default function Diferencia() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer />
+                    <Footer custom next={'/soy121/'} prev={'/trabajo/'}/>
                 </div>
             </div>
         </>

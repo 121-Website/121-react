@@ -144,7 +144,7 @@ export default function Project() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer />
+                    <Footer custom next={'/diferencia/'} prev={'/trabajo/'}/>
                 </div>
             </div>
         </>

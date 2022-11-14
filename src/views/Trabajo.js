@@ -91,7 +91,7 @@ export default function Trabajo() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer />
+                    <Footer custom next={'/diferencia/'} prev={'/*'}/>
                 </div>
             </div>
         </>

@@ -82,7 +82,7 @@ export default function Soy121() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer />
+                    <Footer custom next={'/hablemos/'} prev={'/diferencia/'}/>
                 </div>
             </div>
         </>

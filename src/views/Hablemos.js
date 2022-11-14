@@ -70,7 +70,7 @@ export default function Hablemos() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer />
+                    <Footer custom next={'/*'} prev={'/soy121/'}/>
                 </div>
             </div>
         </>
