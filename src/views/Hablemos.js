@@ -41,7 +41,7 @@ export default function Hablemos() {
                             data-scroll-direction="horizontal"
                             className="w-2/3 mt-14 md:-mt-10 moverline md:w-1/4">
                             <img
-                                href="https://wa.link/wecfs7"
+                                href="https://wa.me/51991803256"
                                 target="_blank"
                                 rel="noreferrer"
                                 alt="whatsapp"
@@ -52,7 +52,7 @@ export default function Hablemos() {
                         </div>
                         <div className="flex flex-col lg:gap-24 ml-2 mt-20 gap-14 lg:mt-20 text-[18px] md:mt-10 md:pl-9 lg:pl-1 md:text-[30px] md:gap-20">
                             <a
-                                href="https://wa.link/wecfs7"
+                                href="https://wa.me/51991803256"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="text-verde">
