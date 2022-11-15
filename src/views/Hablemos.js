@@ -40,12 +40,12 @@ export default function Hablemos() {
                             data-scroll-speed="2"
                             data-scroll-direction="horizontal"
                             className="w-2/3 mt-14 md:-mt-10 moverline md:w-1/4">
-                            <img
-                                href="https://wa.me/51991803256"
-                                target="_blank"
-                                rel="noreferrer"
-                                alt="whatsapp"
-                                src="/assets/images/whatsap.svg"></img>
+                            <a href="https://wa.me/51991803256" target="_blank" rel="noreferrer">
+                                <img
+                                    alt="whatsapp"
+                                    src="/assets/images/whatsap.svg">
+                                </img>
+                            </a>
                             <img
                                 src="/assets/images/correo.svg"
                                 alt="correo"></img>
@@ -70,7 +70,7 @@ export default function Hablemos() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer custom next={'/*'} prev={'/soy121/'}/>
+                    <Footer custom next={'/*'} prev={'/soy121/'} />
                 </div>
             </div>
         </>
