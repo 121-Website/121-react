@@ -86,12 +86,12 @@ export const servicios = [
             textcolor: '#1C3D6D',
             order: 'md:order-1 order-2',
             description:
-                'Ideamos campañas de comunicación para generar sorpresa y atraer la atención en múltiples medios y plataformas',
+                'Ideamos campañas de comunicación para generar sorpresa y atraer la atención en múltiples medios y plataformas.',
         },
     },
     {
         attributes: {
-            name: 'CONSULTORIA ESTRATÉGICA',
+            name: 'CONSULTORÍA ESTRATÉGICA',
             color: '#1C3D6D',
             textcolor: '#8bbcc2',
             order: 'md:order-2 order-4',

@@ -60,21 +60,23 @@ export default function Diferencia() {
                 </div>
 
                 <div className="flex flex-col-reverse mt-10 md:flex-row md:justify-end md:mt-20">
-                    <div className="relative md:absolute flex left-0 w-auto px-10 md:ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
-                        Consulta con nuestro especialista
-                        <svg
-                            className="ml-4 animate-bounce-x"
-                            width="42"
-                            height="24"
-                            viewBox="0 0 42 24"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M41.5607 13.0607C42.1464 12.4749 42.1464 11.5251 41.5607 10.9393L32.0147 1.3934C31.4289 0.807611 30.4792 0.807611 29.8934 1.3934C29.3076 1.97919 29.3076 2.92893 29.8934 3.51472L38.3787 12L29.8934 20.4853C29.3076 21.0711 29.3076 22.0208 29.8934 22.6066C30.4792 23.1924 31.4289 23.1924 32.0147 22.6066L41.5607 13.0607ZM0 13.5H40.5V10.5H0V13.5Z"
-                                fill="#1c3d6d"
-                            />
-                        </svg>
-                    </div>
+                    <a href="https://wa.me/51991803256" target="_blank" rel="noreferrer">
+                        <div className="relative md:absolute flex left-0 w-auto px-10 md:ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
+                            Consulta con nuestro especialista
+                            <svg
+                                className="ml-4 animate-bounce-x"
+                                width="42"
+                                height="24"
+                                viewBox="0 0 42 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M41.5607 13.0607C42.1464 12.4749 42.1464 11.5251 41.5607 10.9393L32.0147 1.3934C31.4289 0.807611 30.4792 0.807611 29.8934 1.3934C29.3076 1.97919 29.3076 2.92893 29.8934 3.51472L38.3787 12L29.8934 20.4853C29.3076 21.0711 29.3076 22.0208 29.8934 22.6066C30.4792 23.1924 31.4289 23.1924 32.0147 22.6066L41.5607 13.0607ZM0 13.5H40.5V10.5H0V13.5Z"
+                                    fill="#1c3d6d"
+                                />
+                            </svg>
+                        </div>
+                    </a>
                     <video
                         loop
                         autoPlay
@@ -90,7 +92,7 @@ export default function Diferencia() {
                 <div className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
                     <div className="flex flex-col justify-center gap-3 p-10 pt-0 ">
                         <div className="mr-auto font-bold transition-all duration-700 leading-none text-[40px] md:text-[60px] text-indigo ">
-                            Behavior Design
+                            Behavioral Design
                         </div>
                         <div className="lg:w-3/6 md:w-full pt-2 text-[14px] md:text-[24px] text-indigo">
                             Nos especializamos con líderes mundiales en la
@@ -101,21 +103,23 @@ export default function Diferencia() {
                     </div>
 
                     <div className="flex flex-col-reverse justify-end md:flex-row md:mt-20">
-                        <div className="relative md:absolute leading-4 flex left-0 w-auto px-10 md:ml-20 py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
-                            Consulta con nuestro especialista
-                            <svg
-                                className="ml-4 animate-bounce-x"
-                                width="42"
-                                height="24"
-                                viewBox="0 0 42 24"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M41.5607 13.0607C42.1464 12.4749 42.1464 11.5251 41.5607 10.9393L32.0147 1.3934C31.4289 0.807611 30.4792 0.807611 29.8934 1.3934C29.3076 1.97919 29.3076 2.92893 29.8934 3.51472L38.3787 12L29.8934 20.4853C29.3076 21.0711 29.3076 22.0208 29.8934 22.6066C30.4792 23.1924 31.4289 23.1924 32.0147 22.6066L41.5607 13.0607ZM0 13.5H40.5V10.5H0V13.5Z"
-                                    fill="white"
-                                />
-                            </svg>
-                        </div>
+                        <a href="https://wa.me/51991803256" target="_blank" rel="noreferrer">
+                            <div className="relative md:absolute leading-4 flex left-0 w-auto px-10 md:ml-20 py-6 text-[16px] font-bold text-white transition-all duration-1000  bg-indigo">
+                                Consulta con nuestro especialista
+                                <svg
+                                    className="ml-4 animate-bounce-x"
+                                    width="42"
+                                    height="24"
+                                    viewBox="0 0 42 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M41.5607 13.0607C42.1464 12.4749 42.1464 11.5251 41.5607 10.9393L32.0147 1.3934C31.4289 0.807611 30.4792 0.807611 29.8934 1.3934C29.3076 1.97919 29.3076 2.92893 29.8934 3.51472L38.3787 12L29.8934 20.4853C29.3076 21.0711 29.3076 22.0208 29.8934 22.6066C30.4792 23.1924 31.4289 23.1924 32.0147 22.6066L41.5607 13.0607ZM0 13.5H40.5V10.5H0V13.5Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </div>
+                        </a>
                         <img
                             className="md:w-4/5 "
                             alt='behavior'
@@ -133,7 +137,7 @@ export default function Diferencia() {
                     </div>
                     <div className="flex flex-col sm:grid sm:grid-cols-2 lg:gap-6 md:gap-4 ">
                         {servicios.map((item, index) => {
-                            return ( 
+                            return (
                                 <UIServiceGridCell
                                     key={index}
                                     service={item.attributes}
@@ -144,7 +148,7 @@ export default function Diferencia() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer custom next={'/soy121/'} prev={'/trabajo/'}/>
+                    <Footer custom next={'/soy121/'} prev={'/trabajo/'} />
                 </div>
             </div>
         </>

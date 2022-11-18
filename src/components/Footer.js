@@ -65,31 +65,29 @@ export default function Footer({ custom = false, next='/', prev='/' }) {
                             </div>
 
                             <div className="flex flex-row items-center justify-center gap-4 p-5 pt-0 md:gap-5 md:p-10 bg-rosado lg:absolute lg:w-2/5 md:relative lg:bottom-0">
-                                <Link to={'/'} className="flex items-center ">
+                                <a href="https://www.instagram.com/121latam" target="_blank" rel="noreferrer" className="flex items-center ">
                                     <svg width="40" height="40" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M42.2294 35.4499C42.2294 39.1999 39.1894 42.2399 35.4394 42.2399C31.6894 42.2399 28.6494 39.1999 28.6494 35.4499C28.6494 31.6999 31.6894 28.6599 35.4394 28.6599C39.1994 28.6599 42.2294 31.6999 42.2294 35.4499Z" fill="#1B3C6A" />
                                         <path d="M51.3198 23.44C50.9898 22.56 50.4698 21.76 49.7998 21.1C49.1398 20.42 48.3398 19.9 47.4598 19.58C46.7398 19.3 45.6598 18.97 43.6798 18.88C41.5298 18.78 40.8898 18.76 35.4498 18.76C30.0098 18.76 29.3698 18.78 27.2198 18.88C25.2398 18.97 24.1598 19.3 23.4398 19.58C22.5598 19.9 21.7498 20.43 21.0998 21.1C20.4198 21.76 19.8998 22.56 19.5798 23.44C19.2998 24.16 18.9698 25.23 18.8798 27.22C18.7798 29.37 18.7598 30.01 18.7598 35.45C18.7598 40.88 18.7798 41.53 18.8798 43.68C18.9698 45.67 19.2998 46.74 19.5798 47.46C19.9098 48.34 20.4298 49.14 21.0998 49.8C21.7598 50.48 22.5598 51 23.4398 51.32C24.1598 51.6 25.2398 51.93 27.2198 52.02C29.3698 52.12 30.0098 52.14 35.4498 52.14C40.8898 52.14 41.5298 52.12 43.6798 52.02C45.6598 51.93 46.7398 51.6 47.4598 51.32C49.2398 50.63 50.6398 49.23 51.3198 47.46C51.5998 46.74 51.9298 45.67 52.0198 43.68C52.1198 41.53 52.1398 40.89 52.1398 35.45C52.1398 30.01 52.1198 29.37 52.0198 27.22C51.9298 25.24 51.5998 24.16 51.3198 23.44ZM35.4498 45.9C29.6798 45.9 24.9998 41.22 24.9998 35.45C24.9998 29.68 29.6798 25 35.4498 25C41.2198 25 45.8998 29.68 45.8998 35.45C45.8998 41.22 41.2198 45.9 35.4498 45.9ZM46.3098 27.02C44.9598 27.02 43.8698 25.93 43.8698 24.58C43.8698 23.23 44.9598 22.14 46.3098 22.14C47.6598 22.14 48.7498 23.23 48.7498 24.58C48.7598 25.93 47.6598 27.02 46.3098 27.02Z" fill="#1B3C6A" />
                                         <path d="M35.45 0C15.87 0 0 15.88 0 35.45C0 55.03 15.88 70.9 35.45 70.9C55.03 70.9 70.9 55.03 70.9 35.45C70.9 15.87 55.02 0 35.45 0ZM55.68 43.84C55.58 46.01 55.24 47.49 54.73 48.78C53.67 51.51 51.51 53.68 48.78 54.74C47.49 55.24 46.01 55.59 43.84 55.69C41.67 55.79 40.98 55.81 35.45 55.81C29.92 55.81 29.23 55.79 27.06 55.69C24.89 55.59 23.41 55.25 22.12 54.74C20.76 54.23 19.53 53.43 18.51 52.39C17.48 51.37 16.67 50.14 16.16 48.78C15.66 47.49 15.31 46 15.21 43.84C15.11 41.67 15.09 40.97 15.09 35.45C15.09 29.92 15.11 29.23 15.21 27.06C15.31 24.89 15.65 23.41 16.16 22.12C16.67 20.76 17.47 19.53 18.51 18.52C19.53 17.48 20.76 16.68 22.11 16.17C23.4 15.67 24.88 15.32 27.05 15.22C29.22 15.12 29.91 15.1 35.44 15.1C40.97 15.1 41.66 15.12 43.83 15.22C46 15.32 47.48 15.66 48.77 16.17C50.13 16.68 51.36 17.48 52.37 18.52C53.41 19.54 54.21 20.77 54.72 22.12C55.22 23.42 55.57 24.89 55.67 27.06C55.77 29.23 55.79 29.92 55.79 35.45C55.8 40.98 55.78 41.67 55.68 43.84Z" fill="#1B3C6A" />
                                     </svg>
-                                </Link>
-                                <Link to={'/'} className="flex items-center">
+                                </a>
+                                <a href="https://www.facebook.com/121latam/" target="_blank" rel="noreferrer" className="flex items-center">
                                     <svg width="40" height="40" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M35.8299 0C16.2499 0 0.379883 15.87 0.379883 35.45C0.379883 55.03 16.2499 70.9 35.8299 70.9C55.4099 70.9 71.2799 55.03 71.2799 35.45C71.2899 15.87 55.4199 0 35.8299 0ZM49.3599 18.05H44.4599C40.6099 18.05 39.8699 19.88 39.8699 22.56V28.47H49.0399L49.0299 37.73H39.8699V61.49H30.2999V37.73H22.2999V28.47H30.2999V21.64C30.2999 13.71 35.1399 9.40002 42.2099 9.40002L49.3499 9.41V18.05H49.3599Z" fill="#1B3C6A" />
                                     </svg>
-                                </Link>
-                                <Link to={'/'} className="flex items-center">
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCjVUB4mdweanAIJwr7-vtMQ" target="_blank" rel="noreferrer" className="flex items-center">
                                     <svg width="40" height="40" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M31.2393 42.0901L42.7693 35.45L31.2393 28.8101V42.0901Z" fill="#1B3C6A" />
                                         <path d="M35.66 0C16.08 0 0.209961 15.88 0.209961 35.45C0.209961 55.03 16.09 70.9 35.66 70.9C55.24 70.9 71.11 55.03 71.11 35.45C71.11 15.87 55.24 0 35.66 0ZM57.81 35.49C57.81 35.49 57.81 42.68 56.9 46.15C56.39 48.05 54.89 49.54 53 50.05C49.53 50.96 35.67 50.96 35.67 50.96C35.67 50.96 21.84 50.96 18.33 50.01C16.43 49.5 14.94 48 14.43 46.11C13.52 42.68 13.52 35.45 13.52 35.45C13.52 35.45 13.52 28.26 14.43 24.79C14.94 22.89 16.47 21.36 18.33 20.85C21.8 19.94 35.67 19.94 35.67 19.94C35.67 19.94 49.54 19.94 53 20.89C54.9 21.4 56.39 22.9 56.9 24.79C57.85 28.26 57.81 35.49 57.81 35.49Z" fill="#1B3C6A" />
                                     </svg>
-
-                                </Link>
-                                <Link to={'/'} className="flex items-center">
+                                </a>
+                                <a href="https://pe.linkedin.com/company/121latam" target="_blank" rel="noreferrer" className="flex items-center">
                                     <svg width="40" height="40" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M36.2895 0.0898438C16.7595 0.0898438 0.939453 15.9198 0.939453 35.4498C0.939453 54.9698 16.7695 70.7998 36.2895 70.7998C55.8195 70.7998 71.6395 54.9698 71.6395 35.4498C71.6495 15.9198 55.8195 0.0898438 36.2895 0.0898438ZM27.9595 50.6598L20.4695 50.6098L20.6194 26.4198L28.1095 26.4698L27.9595 50.6598ZM24.3495 23.2798C21.8995 23.2598 19.9295 21.2498 19.9495 18.7898C19.9595 16.3198 21.9595 14.3398 24.4095 14.3498C26.8595 14.3698 28.8294 16.3798 28.8094 18.8398C28.7894 21.2998 26.7895 23.2898 24.3495 23.2798ZM56.0195 50.8398L48.5594 50.7898C48.5594 50.7898 48.6195 41.5698 48.6395 38.0898C48.6595 34.6098 47.3495 32.6598 44.5995 32.6398C41.5995 32.6198 40.0195 34.6398 39.9995 38.0398C39.9795 41.7698 39.9195 50.7398 39.9195 50.7398L32.7394 50.6998L32.8895 26.5098L40.0695 26.5498L40.0495 29.8098C40.0495 29.8098 42.2294 25.8298 47.3694 25.8598C52.4994 25.8898 56.1495 29.0498 56.1095 35.5298C56.0795 41.9998 56.0195 50.8398 56.0195 50.8398Z" fill="#1B3C6A" />
                                     </svg>
-
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -98,22 +96,22 @@ export default function Footer({ custom = false, next='/', prev='/' }) {
                     <div className="bg-indigo text-sm flex-col  flex  lg:w-2/5  p-10 lg:p-[60px]">
                         <div className="flex flex-wrap gap-24 md:flex-row grow text-celeste text-[12px] ">
                             <div className="flex flex-col gap-2 text-left md:flex-col">
-                                <Link to={"/"} className="font-semibold opacity-100 text-[16px] cursor-pointer hover:opacity-80">Consultoría</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Ciencias del<br /> Comportamiento</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Ciencias de la<br /> Información (NLP)</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Disrupción Creativa<br /> e Innovación</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Producción ágil a<br /> escala</Link>
+                                <Link to={"/"} className="font-semibold opacity-100 text-[16px] cursor-default hover:opacity-80">Consultoría</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Ciencias del<br /> Comportamiento</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Ciencias de la<br /> Información (NLP)</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Disrupción Creativa<br /> e Innovación</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Producción ágil a<br /> escala</Link>
                             </div>
-                            <div className="flex flex-col gap-2 text-left md:flex-col">
-                                <Link to={"/"} className="font-semibold opacity-100 text-[16px] cursor-pointer hover:opacity-80">Servicios</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Campañas</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Redes Sociales</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Programas de<br /> relacionamiento</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Email y Marketing</Link>
-                                <Link to={"/"} className="cursor-pointer opacity-90 hover:opacity-100">Desarrollo Web y<br /> Apps</Link>
+                            <div className="flex flex-col gap-2 text-left md:flex-col"> 
+                                <Link to={"/"} className="font-semibold opacity-100 text-[16px] cursor-default hover:opacity-80">Servicios</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Campañas</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Redes Sociales</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Programas de<br /> relacionamiento</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Email y Marketing</Link>
+                                <Link to={"/"} className="cursor-default opacity-90 hover:opacity-100">Desarrollo Web y<br /> Apps</Link>
                             </div>
                             <div className="flex flex-col gap-2 font-semibold text-left md:flex-col">
-                                <Link to={"/"} className="opacity-100 cursor-pointer text-[16px] hover:opacity-80">Contáctanos</Link>
+                                <Link to={"/hablemos"} className="opacity-100 cursor-pointer text-[16px] hover:opacity-80">Contáctanos</Link>
                             </div>
                         </div>
 
