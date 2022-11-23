@@ -24,8 +24,8 @@ export default function Navigation() {
                     <Route path='/diferencia/' element={<Diferencia />} />
                     <Route path='/hablemos/' element={<Hablemos />} />
                     <Route path='/soy121/' element={<Soy121 />} />
-                    <Route path='/project/' element={<Project />} />
-                    <Route path='/project/:id' element={<Project />} />
+                    {/* <Route path='/trabajo/' element={<Project />} /> */}
+                    <Route path='/trabajo/:id' element={<Project />} />
                 </Routes>
             </Router>
         </>

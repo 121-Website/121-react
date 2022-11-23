@@ -31,7 +31,7 @@ export default function Trabajo() {
                                 consumidor que tiene cada vez menos <br />
                                 tiempo para pensar en ella.</p>
                         </div>
-                        <div data-scroll data-scroll-speed="-4" className="w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[640px] justify-self-center  bg-center bg-no-repeat bg-contain aspect-video"
+                        <div  className="w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[640px] justify-self-center  bg-center bg-no-repeat bg-contain aspect-video"
                             style={{ backgroundImage: 'url(/assets/images/trabajo121.svg)' }}>
                             {/* <AnimatedHeader2/> */}
                         </div>

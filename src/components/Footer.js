@@ -60,7 +60,9 @@ export default function Footer({ custom = false, next='/', prev='/' }) {
                                     Suscríbete a nuestro<br /> boletín de insights
                                 </div>
                                 <div className="flex items-center justify-start">
+                                    <form  onSubmit={(e)=> {e.preventDefault(); window.open('mailto:vanessa.ortiz@121rm.com?subject=Suscríbete%20a%20121&&body=Hola%20121', '_blank', 'noopener,noreferrer')}}>
                                     <input className="w-3/4 p-3 bg-transparent border-b placeholder-indigo text-indigo border-indigo bg-none" placeholder="Email"></input>
+                                    </form>
                                 </div>
                             </div>
 

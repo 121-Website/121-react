@@ -13,7 +13,7 @@ export default function UIProjectBanner({ project, id }) {
 
     return (
         <div className="md:pb-16 md:mx-[40px] overflow-hidden bg-white ">
-            <Link to={`/project/${id}`} className="">
+            <Link to={`/trabajo/${id}`} className="">
                 <div
                     onMouseEnter={Creator} onMouseLeave={Destroyer}
                     className="relative flex w-full transition-all duration-700 transform bg-center bg-cover hover:scale-100 "
@@ -26,7 +26,7 @@ export default function UIProjectBanner({ project, id }) {
                     }
 
                     {hover ?
-                        <Link to={`/project/${id}`}
+                        <Link to={`/trabajo/${id}`}
                             className="absolute z-20 translate-y-1/2 flex text-[17px] items-center gap-2 p-4 px-8 pb-5 text-2xl text-white uppercase transition-all duration-700 cursor-pointer animate-appear right-8 bottom-1/2   ">
                             <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M25.3134 13.109C26.6889 13.8701 26.6889 15.8477 25.3134 16.6088L5.75743 27.4306C4.42443 28.1683 2.78906 27.2042 2.78906 25.6807V4.03709C2.78906 2.5136 4.42443 1.5495 5.75743 2.28716L25.3134 13.109Z" stroke="url(#paint0_linear_286_316)" stroke-width="4" />
@@ -56,7 +56,7 @@ export default function UIProjectBanner({ project, id }) {
                     <div className="lg:text-[36px] font-bold mb-4 lg:laeding-10 md:leading-9 tracking-tight md:text-indigo md:text-[40px] ">
                         <ReactMarkdown className="tracking-tighter " children={project.descriptionhome} />
                     </div>
-                    <Link to={`/project/${id}`} className="flex text-rosado items-center justify-start gap-4 text-sm font-bold tracking-tighter md:text-[25px] hover:text-indigo ">
+                    <Link to={`/trabajo/${id}`} className="flex text-rosado items-center justify-start gap-4 text-sm font-bold tracking-tighter md:text-[25px] hover:text-indigo ">
                         ver más
                         <svg className="animate-bounce-x" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fillRule="evenodd" clipRule="evenodd" d="M11.0378 0.928635L17.4018 7.2926C17.7923 7.68312 17.7923 8.31629 17.4018 8.70681L11.0378 15.0708C10.6473 15.4613 10.0141 15.4613 9.6236 15.0708C9.23308 14.6802 9.23308 14.0471 9.6236 13.6566L14.2805 8.9997H0.0839844V6.9997H14.2805L9.6236 2.34285C9.23308 1.95232 9.23308 1.31916 9.6236 0.928635C10.0141 0.538111 10.6473 0.538111 11.0378 0.928635Z" fill="#c886a9" />

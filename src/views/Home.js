@@ -38,7 +38,7 @@ export default function Home() {
                         src={'https://assets.kgdm.live/121/121_Salta_V6.mp4'}>
                         {isMuted ? (
                             /*sound off*/
-                            <div className=" bg-slate-500/20 hover:bg-rosado   absolute z-50  transition-colors hover:fill-amarillo fill-white w-[58px] px-5 py-3 animate-disappear  mt-28 right-0">
+                            <div className=" bg-slate-500/20 hover:bg-rosado absolute z-50  transition-colors hover:fill-amarillo fill-white w-[58px] px-5 py-3 animate-disappear  mt-36 right-0">
                                 {' '}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ export default function Home() {
                             </div>
                         ) : (
                             /*sound on*/
-                            <div className="bg-slate-500/20 hover:bg-celeste absolute z-30 transition-colors hover:fill-indigo fill-white w-[76px] px-5 py-3 animate-disappear mt-28 right-0 ">
+                            <div className="bg-slate-500/20 hover:bg-celeste absolute z-30 transition-colors hover:fill-indigo fill-white w-[76px] px-5 py-3 animate-disappear mt-36 right-0 ">
                                 {' '}
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

@@ -120,9 +120,8 @@ export default function Project() {
                     <div className="flex bg-white pt-14 md:w-3/5 text-indigo" />
                     <div className="flex flex-col items-center justify-center w-full gap-12 pt-12 text-lg font-bold text-indigo md:bg-white md:pt-0 md:w-2/5">
                         <a
-                            href={`/project/${
-                                Number(id) < 12 ? Number(id) + 1 : 1
-                            }`}
+                            href={`/trabajo/${Number(id) < 12 ? Number(id) + 1 : 1
+                                }`}
                             className="p-6 tracking-tight flex flex-wrap sm:text-[24px] md:text-[24px] lg:text-[37px] justify-center w-full hover:bg-rosado transition-all duration-700 md:bg-amarillo bg-celeste">
                             <div className="flex items-center w-auto h-10 bg-center bg-no-repeat bg-contain text-indigo ">
                                 Siguiente Caso
@@ -144,7 +143,7 @@ export default function Project() {
                 </div>
 
                 <div data-scroll-section>
-                    <Footer custom next={'/diferencia/'} prev={'/trabajo/'}/>
+                    <Footer custom next={'/diferencia/'} prev={'/trabajo/'} />
                 </div>
             </div>
         </>

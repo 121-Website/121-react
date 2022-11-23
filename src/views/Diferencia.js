@@ -2,8 +2,10 @@ import React from 'react';
 import Footer from '../components/Footer';
 import UIServiceGridCell from '../components/UIServiceGridCell';
 import { servicios } from '../utils/data';
+import useLocoScroll from '../hooks/useLocoScroll';
 
 export default function Diferencia() {
+    useLocoScroll(true);
     return (
         <>
             <div
@@ -40,7 +42,7 @@ export default function Diferencia() {
                 </div>
 
                 {/* INTELLIGENCE */}
-                <div className="p-10 pt-20 pb-0 bg-white md:pt-32 ">
+                <div data-scroll-section className="p-10 pt-20 pb-0 bg-white md:pt-32 ">
                     <div className="flex flex-col justify-center md:gap-3 ">
                         <div className="text-[18px] md:text-[20px] text-indigo">
                             Conoce la herramienta
@@ -59,7 +61,7 @@ export default function Diferencia() {
                     </div>
                 </div>
 
-                <div className="flex flex-col-reverse mt-10 md:flex-row md:justify-end md:mt-20">
+                <div data-scroll-section className="flex flex-col-reverse mt-10 md:flex-row md:justify-end md:mt-20">
                     <a href="https://wa.me/51991803256" target="_blank" rel="noreferrer">
                         <div className="relative md:absolute flex left-0 w-auto px-10 md:ml-20 leading-4 text-indigo py-6 md:text-[16px] font-bold text-brown transition-all duration-1000  bg-[#F2BF57]">
                             Consulta con nuestro especialista
@@ -89,7 +91,7 @@ export default function Diferencia() {
                 </div>
 
                 {/* behavior */}
-                <div className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
+                <div data-scroll-section className="pt-10 my-10 md:pt-24 pb-28 bg-skyblue ">
                     <div className="flex flex-col justify-center gap-3 p-10 pt-0 ">
                         <div className="mr-auto font-bold transition-all duration-700 leading-none text-[40px] md:text-[60px] text-indigo ">
                             Behavioral Design
@@ -130,7 +132,7 @@ export default function Diferencia() {
 
                 {/* grid */}
 
-                <div className="bg-white md:px-10 md:my-20 md:py-20">
+                <div data-scroll-section className="bg-white md:px-10 md:my-20 md:py-20">
                     <div className="mx-4 font-bold tracking-tight leading-4 lg:leading-none text-[16px] md:leading-7 md:w-2/3 pl-2 -mt-24 mb-10 md:mb-20 lg:text-[48px] md:text-[30px] text-indigo">
                         Tenemos una solución para acompañarte en cada momento de
                         tu proceso de marketing y comunicación.

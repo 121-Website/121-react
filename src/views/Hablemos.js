@@ -1,6 +1,8 @@
 import Footer from '../components/Footer';
+import useLocoScroll from '../hooks/useLocoScroll';
 
 export default function Hablemos() {
+    useLocoScroll(true);
     return (
         <>
             <div
@@ -13,7 +15,6 @@ export default function Hablemos() {
                         <div
                             data-scroll
                             data-scroll-speed="2"
-                            data-scroll-direction="horizontal"
                             className="flex flex-col pb-10 justify-center justify-self-center tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
                             <p className="font-bold tracking-tighter text-center lg:text-left md:justify-center text-[64px] ">
                                 Hablemos
@@ -22,7 +23,6 @@ export default function Hablemos() {
                         <div
                             data-scroll
                             data-scroll-speed="-1"
-                            data-scroll-direction="horizontal"
                             className="w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[640px] justify-self-center  bg-center bg-no-repeat bg-contain aspect-video"
                             style={{
                                 backgroundImage:
@@ -33,12 +33,9 @@ export default function Hablemos() {
                     </div>
                 </div>
 
-                <div className="container z-10 flex flex-col justify-center gap-20 pb-10 mb-20 md:pb-24 md:flex-row ">
+                <div data-scroll-section className="container z-10 flex flex-col justify-center gap-20 pb-10 mb-20 md:pb-24 md:flex-row ">
                     <div className="flex flex-row gap-4 mx-5 md:container md:gap-2 ">
                         <div
-                            data-scroll
-                            data-scroll-speed="2"
-                            data-scroll-direction="horizontal"
                             className="w-2/3 mt-14 md:-mt-10 moverline md:w-1/4">
                             <a href="https://wa.me/51991803256" target="_blank" rel="noreferrer">
                                 <img
@@ -46,9 +43,14 @@ export default function Hablemos() {
                                     src="/assets/images/whatsap.svg">
                                 </img>
                             </a>
-                            <img
-                                src="/assets/images/correo.svg"
-                                alt="correo"></img>
+                            <a href="mailto:vanessa.ortiz@121rm.com?subject=Hola%20121"
+                                target="_blank"
+                                rel="noreferrer">
+                                <img
+                                    src="/assets/images/correo.svg"
+                                    alt="correo">
+                                </img>
+                            </a>
                         </div>
                         <div className="flex flex-col lg:gap-24 ml-2 mt-20 gap-14 lg:mt-20 text-[18px] md:mt-10 md:pl-9 lg:pl-1 md:text-[30px] md:gap-20">
                             <a
@@ -61,10 +63,15 @@ export default function Hablemos() {
                                     Whatsapp de 121
                                 </span>
                             </a>
-                            <span className="text-indigo">
-                                Escríbenos{' '}
-                                <span className="font-bold">un correo</span>
-                            </span>
+                            <a
+                                href="mailto:vanessa.ortiz@121rm.com?subject=Hola%20121"
+                                target="_blank"
+                                rel="noreferrer">
+                                <span className="text-indigo">
+                                    Escríbenos{' '}
+                                    <span className="font-bold">un correo</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>

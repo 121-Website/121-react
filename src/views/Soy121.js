@@ -16,9 +16,6 @@ export default function Soy121() {
                     className="relative flex  grow min-h-[720px] md:min-h-[980px] bg-[#EDE9E3] ">
                     <div className="flex flex-col-reverse gap-10 mx-5 my-10 grow lg:flex-row md:mx-20">
                         <div
-                            data-scroll
-                            data-scroll-speed="2"
-                            data-scroll-direction="horizontal"
                             className="flex gap-5 flex-col pb-10 justify-center items-center md:items-start justify-self-center tracking-tight lg:text-left md:text-center w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[665px] text-indigo">
                             <p className="font-bold tracking-tighter text-center pb-5 leading-none lg:text-left md:justify-center text-[36px] md:text-[64px]">
                                 121 es un equipo <br />
@@ -32,9 +29,6 @@ export default function Soy121() {
                             </p>
                         </div>
                         <div
-                            data-scroll
-                            data-scroll-speed="-1"
-                            data-scroll-direction="horizontal"
                             className="w-full sm:max-w-[540px] mx-auto md:max-w-[540px] lg:max-w-[640px] justify-self-center  bg-center bg-no-repeat bg-contain aspect-video"
                             style={{
                                 backgroundImage:
