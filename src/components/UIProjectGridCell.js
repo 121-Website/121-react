@@ -13,7 +13,7 @@ export default function UIProjectGridCell({ project, id }) {
     function Creator() { setDestroy(false); setHover(true); }
 
     return (
-        <Link to={`/trabajo/${id}`} className="text-sm font-black text-indigo md:text-lg hover:text-rosado ">
+        <Link to={`/trabajo/${project.route}`} className="text-sm font-black text-indigo md:text-lg hover:text-rosado ">
             <div className="bg-white md:pb-6">
                 <div onMouseEnter={Creator} onMouseLeave={Destroyer} className="relative flex w-full overflow-hidden transition-all duration-1000 transform bg-center bg-cover aspect-video" style={{ backgroundImage: `url(${project.cover})` }}>
                     {hover ?

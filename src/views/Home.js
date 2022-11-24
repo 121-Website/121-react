@@ -111,6 +111,7 @@ export default function Home() {
                 </div>
 
                 <div data-scroll-section>
+                    {/* {console.log("CHECK",livedata[0].attributes)} */}
                     {livedata.map((project, index) => (
                         <UIProjectBanner
                             key={index}

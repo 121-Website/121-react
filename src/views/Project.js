@@ -15,7 +15,7 @@ export default function Project() {
 
     useEffect(() => {
         GetProjectAPI(id).then((data) => {
-            setProject(data.data.attributes);
+            setProject(data.data[0].attributes);
             setLoading(false);
             console.log(data);
         });
