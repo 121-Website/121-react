@@ -1,77 +1,77 @@
 export const talent = [
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293848/121%20Talent/talent08_ec95qo_trx70k.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293848/121%20Talent/talent08_ec95qo_trx70k.jpg',
             name: 'Alejandro Trípoli',
             charge: 'Fundador y Director General',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293863/121%20Talent/talent09_ozmps4_d3nf7t.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293863/121%20Talent/talent09_ozmps4_d3nf7t.jpg',
             name: 'Gonzalo Calmet ',
             charge: 'Fundador y Director Creativo Ejecutivo',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293899/121%20Talent/talent07_zl8mah_s9mfda.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293899/121%20Talent/talent07_zl8mah_s9mfda.jpg',
             name: 'Benjamín Edwards',
             charge: 'Fundador y Director de Negocios',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293910/121%20Talent/talent06_xjbfsc_ylm1qw.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293910/121%20Talent/talent06_xjbfsc_ylm1qw.jpg',
             name: 'Clara Ferro',
             charge: 'Directora de Contenidos',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666295863/121%20Talent/Lucas_Bargen_ojavw6.png',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666295863/121%20Talent/Lucas_Bargen_ojavw6.png',
             name: 'Lucas Bargen',
             charge: 'DCG',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293937/121%20Talent/talent05_mgxsse_xufave_rf2sqw.png',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293937/121%20Talent/talent05_mgxsse_xufave_rf2sqw.png',
             name: 'Jackie Strancman',
             charge: 'Directora de Cuentas',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293947/121%20Talent/talent02_zpvrlr_xgqseg.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293947/121%20Talent/talent02_zpvrlr_xgqseg.jpg',
             name: 'Jojo Penas',
             charge: 'Director de Contenidos',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293974/121%20Talent/talent04_heisa3_r1mngf.jpg',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293974/121%20Talent/talent04_heisa3_r1mngf.jpg',
             name: 'Vanessa Ortiz',
             charge: 'Directora de Nuevos Negocios',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666293984/121%20Talent/talent03_nxx7fy_pzgbja_nwgdlc.png',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666293984/121%20Talent/talent03_nxx7fy_pzgbja_nwgdlc.png',
             name: 'Juan Camilo Lema',
             charge: 'Director de Tecnología',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666294120/121%20Talent/talent10_lrz_vavjuq_aazlnr.png',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666294120/121%20Talent/talent10_lrz_vavjuq_aazlnr.png',
             name: 'Luis Ruiz',
             charge: 'Director de Producción',
         },
     },
     {
         attributes: {
-            image: 'https://res.cloudinary.com/ddeewxutr/image/upload/v1666295863/121%20Talent/Fiorella_Figueroa_duivcf.png',
+            image: 'https://res.cloudinary.com/ti121/image/upload/v1666295863/121%20Talent/Fiorella_Figueroa_duivcf.png',
             name: 'Fiorella Figueroa',
             charge: 'Directora de RR.SS.',
         },

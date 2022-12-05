@@ -84,7 +84,7 @@ export default function Diferencia() {
                         autoPlay
                         controls
                         muted
-                        src="https://res.cloudinary.com/ddeewxutr/video/upload/v1665030531/Soy%20121/SI_Inteligence_-_Anim_1_us6ko7.mp4"
+                        src="https://res.cloudinary.com/ti121/video/upload/v1665030531/Soy%20121/SI_Inteligence_-_Anim_1_us6ko7.mp4"
                         type="video/mp4"
                         className="md:w-4/5 aspect-video"
                     />
