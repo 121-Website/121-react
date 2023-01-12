@@ -9,6 +9,7 @@ import NavigationTop from '../components/NavigationTop';
 import Home from "../views/Home";
 import Transition from '../components/Transition';
 import ScrollToTop from '../hooks/ScrollToTop';
+import Gracias from '../views/Gracias';
 
 export default function Navigation() {
     return (
@@ -23,6 +24,7 @@ export default function Navigation() {
                     <Route path='/trabajo/' element={<Trabajo />} />
                     <Route path='/diferencia/' element={<Diferencia />} />
                     <Route path='/hablemos/' element={<Hablemos />} />
+                    <Route path='/hablemos-gracias/' element={<Gracias />} />
                     <Route path='/soy121/' element={<Soy121 />} />
                     {/* <Route path='/trabajo/' element={<Project />} /> */}
                     <Route path='/trabajo/:id' element={<Project />} />

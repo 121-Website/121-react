@@ -62,7 +62,7 @@ export default function UIProjectBanner({ project, id }) {
                                 <path
                                     d="M25.3134 13.109C26.6889 13.8701 26.6889 15.8477 25.3134 16.6088L5.75743 27.4306C4.42443 28.1683 2.78906 27.2042 2.78906 25.6807V4.03709C2.78906 2.5136 4.42443 1.5495 5.75743 2.28716L25.3134 13.109Z"
                                     stroke="url(#paint0_linear_286_316)"
-                                    stroke-width="4"
+                                    strokeWidth="4"
                                 />
                                 <defs>
                                     <linearGradient
