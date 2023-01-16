@@ -3,16 +3,19 @@ import { useState } from 'react';
 const UIInput = ({
     label,
     className,
+    errorText = '',
     type = 'text',
+    maxLength = '',
     error = false,
     handleChange,
+    value,
 }) => {
-    const [value, setValue] = useState('');
+    const [inputValue, setInputValue] = useState('');
     const [onFocus, setOnFocus] = useState(false);
     const [initialType, setInitialType] = useState(true);
 
     const onChange = (e) => {
-        setValue(e.target.value);
+        setInputValue(e.target.value);
         handleChange(e.target.value);
     };
 
@@ -24,19 +27,24 @@ const UIInput = ({
             ${className}`}>
             <label
                 className={`absolute flex h-full top-2 left-2 z-1 mb-2 transition-all text-[#8F9BB3] ${
-                    onFocus || value !== ''
+                    onFocus || inputValue !== ''
                         ? 'top-2 left-2 text-xxs font-bold'
                         : 'top-4 left-4 text-sm'
                 }`}>
                 {label}
             </label>
+            {error && (
+                <div className="absolute flex items-center justify-center w-6 h-6 text-xs text-white -translate-y-1/2 bg-red-500 rounded-full right-3 top-1/2">
+                    !
+                </div>
+            )}
             {type === 'password' && (
                 <div className="absolute z-10 -translate-y-3 border-none cursor-pointer stroke-slate-400 we right-3 top-1/2">
                     <input
                         tabIndex="-1"
                         type="checkbox"
                         onClick={() => setInitialType(!initialType)}
-                        className="absolute z-10 p-2 mt-1 ml-1 cursor-pointer "
+                        className="absolute z-10 p-2 mt-1 ml-1 appearance-none cursor-pointer "
                         style={{ WebkitAppearance: 'none' }}
                     />
                     {initialType ? (
@@ -79,8 +87,9 @@ const UIInput = ({
             <input
                 onFocus={() => setOnFocus(true)}
                 onBlur={() => setOnFocus(false)}
-                className="absolute w-full h-full p-4 text-[#222B45] px-2 pb-2 text-[15px] bg-transparent border-none outline-none z-2"
+                className="absolute appearance-none w-full h-full p-4 text-[#222B45] px-2 pb-2 text-[15px] bg-transparent border-none outline-none z-2"
                 type={initialType ? type : 'text'}
+                maxLength={maxLength}
                 value={value}
                 onChange={onChange}
             />

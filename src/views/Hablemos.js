@@ -30,7 +30,6 @@ export default function Hablemos() {
                                 backgroundImage:
                                     'url(/assets/images/hablemos.svg)',
                             }}>
-                            {/* <AnimatedHeader2/> */}
                         </div>
                     </div>
                 </div>

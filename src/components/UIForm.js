@@ -8,9 +8,13 @@ export default function UIForm() {
     const navigate = useNavigate();
 
     const [name, setName] = useState('');
+    const [nameError, setNameError] = useState(false);
     const [email, setEmail] = useState('');
+    const [emailError, setEmailError] = useState(false);
     const [phone, setPhone] = useState('');
+    const [phoneError, setPhoneError] = useState(false);
     const [message, setMessage] = useState('');
+    const [messageError, setMessageError] = useState(false);
 
     const [error, setError] = useState(false);
     const [success, setSuccess] = useState(false);
@@ -25,23 +29,60 @@ export default function UIForm() {
     };
 
     function handleChangeName(e) {
-        setName(e);
-        console.log(body);
+        if (e.trim().length !== 0) {
+            setName(e);
+            setNameError(false);
+        } else {
+            setName(e);
+            setNameError(true);
+        }
     }
+
     function handleChangeEmail(e) {
-        setEmail(e);
-        console.log(body);
+        if (e.includes('@') && e.includes('.')) {
+            setEmail(e);
+            setEmailError(false);
+        } else {
+            setEmail(e);
+            setEmailError(true);
+        }
     }
     function handleChangePhone(e) {
-        setPhone(e);
-        console.log(body);
+        if (e.trim().length !== 0) {
+            if (e.length <= 12) {
+                setPhone(e.slice(0, 12));
+            } else {
+                setPhone(e.slice(0, 12));
+            }
+            setPhoneError(false);
+        } else {
+            setPhone(e);
+            setPhoneError(true);
+        }
     }
     function handleChangeMessage(e) {
-        setMessage(e);
-        console.log(body);
+        if (e.trim().length !== 0) {
+            setMessage(e);
+            setMessageError(false);
+        } else {
+            setMessage(e);
+            setMessageError(true);
+        }
     }
 
     function handleSubmit() {
+        if (name.trim().length === 0) {
+            setNameError(true);
+        }
+        if (!email.includes('@') || !email.includes('.')) {
+            setEmailError(true);
+        }
+        if (phone.trim().length === 0) {
+            setPhoneError(true);
+        }
+        if (message.trim().length === 0) {
+            setMessageError(true);
+        }
         postLeadsAPI(JSON.stringify(body)).then((data) => {
             //if AxiosError
             if (data === undefined) {
@@ -70,20 +111,27 @@ export default function UIForm() {
                         className="bg-white"
                         label="Nombre y Apellidos"
                         value={name}
+                        error={nameError}
                         placeholder="Nombre y Apellido *"
                         handleChange={(e) => handleChangeName(e)}
                     />
                     <UIInput
                         className="bg-white"
                         label="Email *"
+                        error={emailError}
+                        errorText="Por favor ingresa un email válido"
+                        type="email"
                         value={email}
                         placeholder="tucorreo@gmail.com"
                         handleChange={(e) => handleChangeEmail(e)}
                     />
                     <UIInput
+                        maxLength={5}
                         className="bg-white"
                         label="Teléfono *"
+                        type="number"
                         value={phone}
+                        error={phoneError}
                         placeholder="999999999"
                         handleChange={(e) => handleChangePhone(e)}
                     />
@@ -91,6 +139,7 @@ export default function UIForm() {
                         className="bg-white"
                         label="Escribe tu Mensaje *"
                         value={message}
+                        error={messageError}
                         placeholder="Escribe tu mensaje"
                         handleChange={(e) => handleChangeMessage(e)}
                     />

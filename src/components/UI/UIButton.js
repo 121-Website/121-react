@@ -1,10 +1,10 @@
-const UIButton = ({
+export default function UIButton({
     className,
     disabled = false,
     onClick,
     children,
     secondary = false,
-}) => {
+}) {
     return (
         <button
             disabled={disabled}
@@ -16,13 +16,11 @@ const UIButton = ({
                         : 'border-primary hover:shadow-xl hover:bg-primary hover:text-white border hover:animate-pulse bg-secondary-500 text-primary'
                     : disabled
                     ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                    : 'hover:shadow-xl hover:animate-pulse bg-primary text-white'
+                    : 'hover:shadow-xl hover:animate-pulse bg-indigo text-white'
             }
                      ${className}`}
             onClick={onClick !== '' ? onClick : null}>
             {children}
         </button>
     );
-};
-
-export default UIButton;
+}

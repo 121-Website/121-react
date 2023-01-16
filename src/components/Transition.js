@@ -5,7 +5,7 @@ export default function Transition() {
     const location = useLocation();
 
     React.useEffect(() => {
-        console.log('handle route change here', location);
+        // console.log('handle route change here', location);
     }, [location]);
 
     return (
