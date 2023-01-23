@@ -51,7 +51,7 @@ export default function UIProjectBanner({ project, id }) {
 
                     {hover ? (
                         <Link
-                            to={`/trabajo/${id}`}
+                            to={`/trabajo/${project.route}`}
                             className="absolute z-20 translate-y-1/2 flex text-[17px] items-center gap-2 p-4 px-8 pb-5 text-2xl text-white uppercase transition-all duration-700 cursor-pointer animate-appear right-8 bottom-1/2   ">
                             <svg
                                 width="29"
@@ -116,7 +116,7 @@ export default function UIProjectBanner({ project, id }) {
                         />
                     </div>
                     <Link
-                        to={`/trabajo/${id}`}
+                        to={`/trabajo/${project.route}`}
                         className="flex text-rosado items-center justify-start gap-4 text-sm font-bold tracking-tighter md:text-[25px] hover:text-indigo ">
                         ver más
                         <svg

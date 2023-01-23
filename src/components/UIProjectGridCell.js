@@ -14,6 +14,7 @@ export default function UIProjectGridCell({ project, id }) {
 
     return (
         <Link to={`/trabajo/${project.route}`} className="text-sm font-black text-indigo md:text-lg hover:text-rosado ">
+            {console.log(project)}
             <div className="bg-white md:pb-6">
                 <div onMouseEnter={Creator} onMouseLeave={Destroyer} className="relative flex w-full overflow-hidden transition-all duration-1000 transform bg-center bg-cover aspect-video" style={{ backgroundImage: `url(${project.cover})` }}>
                     {hover ?
