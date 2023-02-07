@@ -85,7 +85,7 @@ module.exports = {
                 ultratight: '-0.09em',
             },
             fontFamily: {
-                sans: ['Norms'],
+                sans: ['Roboto', 'sans-serif'],
                 display: ['Compressa VF'],
             },
             fontSize: {
